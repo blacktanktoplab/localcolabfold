@@ -1,5 +1,7 @@
 # LocalColabFold
 
+**環状ペプチドや環状ペプチド複合体を予測したい場合は、[環状オフセット機能付きColabFoldノートブック](https://colab.research.google.com/github/blacktanktoplab/ColabFold/blob/cyclic/AlphaFold2.ipynb)も使用可能です。**
+
 個人用パソコンまたはmacOSで動かす[ColabFold](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb)。
 
 ## アップデート情報

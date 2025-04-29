@@ -1,5 +1,8 @@
 # LocalColabFold
 
+**If you want to predict a small number of cyclic peptide of protein and cyclic peptide 
+complex, I recommend using [ColabFold with cyclic offset notebook](https://colab.research.google.com/github/blacktanktoplab/ColabFold/blob/cyclic/AlphaFold2.ipynb)**
+
 [ColabFold](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb) on your local PC (or macOS). See also [ColabFold repository](https://github.com/sokrypton/ColabFold).
 
 ## What is LocalColabFold?
@@ -183,6 +186,7 @@ You can input your a3m format MSA file. For multimer predictions, the a3m file s
 
 These flags are useful for the predictions.
 
+- **`--cyclic`** : Flag for cyclic peptide prediction. For complexes, only the sequences after the colon (:) will be cyclized.
 - **`--amber`** : Use amber for structure refinement (relaxation / energy minimization). To control number of top ranked structures are relaxed set `--num-relax`.
 - **`--templates`** : Use templates from pdb.
 - **`--use-gpu-relax`** : Run amber on NVidia GPU instead of CPU. This feature is only available on a machine with Nvidia GPUs.
