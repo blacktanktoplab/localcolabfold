@@ -32,7 +32,7 @@ conda activate "$COLABFOLDDIR/colabfold-conda"
 
 # reinstall colabfold
 "$COLABFOLDDIR/colabfold-conda/bin/pip" install --no-warn-conflicts --upgrade --force-reinstall \
-    "colabfold[alphafold] @ git+https://github.com/blacktanktoplab/ColabFold"
+    "colabfold[alphafold] @ git+https://github.com/blacktanktoplab/ColabFold@cyclic"
 "$COLABFOLDDIR/colabfold-conda/bin/pip" install jax==0.4.23 jaxlib==0.4.23
 "$COLABFOLDDIR/colabfold-conda/bin/pip" install "colabfold[alphafold]"
 "$COLABFOLDDIR/colabfold-conda/bin/pip" install silence_tensorflow
